@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Which Is Better, Pixels or EM's?</title>
+		<link href="../styles/blog-post.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<article>
+			<h1>Pixels vs. EM's</h1>
+
+			<div class="date">September 21, 2015</div>
+
+			<p>CSS has several different units for expressing length, the three most popular being px, em and %. Pixels are an absolute measure whereas em and % are relative measures.</p>
+
+			<h3>Why Do Developers Seem To Prefer Relative Unit Measures?</h3>
+			<p>Relative measures, like em, are more popular because they're easier to work with in responsive design. They help your content scale well as your page is rendered on different sized screens.</p>
+
+			<h3>For Example...</h3>
+
+			<p>Let's say you set 5 different font-sizes on a page using px. As you render that page on different sized screens you'll notice that all 5 font-sizes remain the same across devices. When you go set up your media queries for your responsive design you'll have to reset all 5 font-sizes each time you set a new break point.</p> 
+
+			<p>However, if you use a relative measure, like em, you can tie all 5 of your font-sizes to the default font-size in your body tag (if one is not explicitly defined then it defaults to 16px). You can now change the font-size in your body tag and it'll automatically, and proportionally, adjust all font-sizes on the page that are children of the body tag. This makes is so that you only have to update your measures in one place (rather than 5) each time you set a new media query.</p>
+		</article>
+	</body>
+</html>
