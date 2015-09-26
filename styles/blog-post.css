@@ -3,6 +3,7 @@ body {
 	font-family: 'Hind', sans-serif;
 }
 
+
 article {
 	margin-left: auto;
 	margin-right: auto;
@@ -46,5 +47,6 @@ ol p {
 
 .highlight {
 	border-radius: .25em;
-	background-color: #9CDBF0;
+	background-color: #B2E0FF;
+	padding: 0.2em;
 }

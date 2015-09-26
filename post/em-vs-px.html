@@ -1,8 +1,9 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Which Is Better, Pixels or EM's?</title>
 		<link href="../styles/blog-post.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans|Hind' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body>
@@ -20,7 +21,7 @@
 
 			<p>Let's say you set 5 different font-sizes on a page using px. As you render that page on different sized screens you'll notice that all 5 font-sizes remain the same across devices. When you go set up your media queries for your responsive design you'll have to reset all 5 font-sizes each time you set a new break point.</p> 
 
-			<p>However, if you use a relative measure, like em, you can tie all 5 of your font-sizes to the default font-size in your body tag (if one is not explicitly defined then it defaults to 16px). You can now change the font-size in your body tag and it'll automatically, and proportionally, adjust all font-sizes on the page that are children of the body tag. This makes is so that you only have to update your measures in one place (rather than 5) each time you set a new media query.</p>
+			<p>However, if you use a relative measure, like em, you can tie all 5 of your font-sizes to the default font-size in your body tag (if one is not explicitly defined then it defaults to 16px). You can now change the font-size in your body tag and it'll automatically, and proportionally, adjust all font-sizes of all child tags on the on the page that are children of the body tag. This way you only have to update your measures in one place (rather than 5) each time you set a new media query.</p>
 
 			<p>References:<br>
 				<ul>
